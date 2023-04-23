@@ -36,9 +36,11 @@ public class Program {
 		
 		System.out.println("Test 4 = Insert");
 		
-		Seller seller1 = new Seller(8, "Ruan", "ruan@gmail.com", new Date(2000, 10, 5), 2000.0, dep);
+		Seller seller1 = new Seller(10, "Ryan", "ryan@gmail.com", new Date(2000, 10, 5), 2000.0, dep);
 		
-		sellerDao.insert(seller1);
+		//sellerDao.insert(seller1);
+		
+		sellerDao.update(seller1);
 
 	}
 
