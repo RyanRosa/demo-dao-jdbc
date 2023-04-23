@@ -26,6 +26,12 @@ public class Program {
 		List<Seller> seller2 = sellerDao.findById(dep);
 
 		seller2.forEach(System.out::println);
+		
+		System.out.println("Test 3 = Find All");
+		
+		List<Seller> seller3 = sellerDao.findAll();
+		
+		seller3.forEach(System.out::println);
 
 	}
 
